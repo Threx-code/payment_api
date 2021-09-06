@@ -4,10 +4,15 @@ Laravel (Passport) API for a peer to peer payment app. Please note it's just an 
 
 Endpoints are:
 http://localhost:8000/api/register/
+
 http://localhost:8000/api/login/
 
 These routes required authentication [We used Laravel/Passport to manage the token]
-add the the token as an Authorization header [Bearer Token ] 
+add the the token as an Authorization header [Bearer Token ]
+
 http://localhost:8000/api/deposit
+
 http://localhost:8000/api/transfer
+
 http://localhost:8000/api/balance [This is the only GET request ]
+
